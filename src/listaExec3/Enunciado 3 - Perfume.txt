@@ -1,0 +1,8 @@
+Um perfume possui um nome, uma marca, uma família olfativa além de listas de ingredientes pre-
+sentes na cabeça, corpo e coração da fragrância. Crie uma classe em Java que represente perfumes,
+sabendo que os métodos necessários incluem a verificação de um ingrediente na formulação, se tal
+ingrediente aparece na cabeça, corpo ou coração da fragrância (assuma que nenhum ingrediente
+pode estar ao mesmo tempo em mais de um nível) e calcular o nível de similaridade com outro
+perfume. O nível de similaridade pode ser calculada fazendo uma média simples entre o número
+de ocorrˆencias de ingredientes por nível. Para o número de ocorrˆencias por nível, divida o total
+de ingredientes compartilhados pelo maior número de ingredientes do nível no perfume.

@@ -1,0 +1,4 @@
+Faça uma programa para representar árvore genealógica de uma família. Para tal, crie uma
+classe Pessoa que permita indicar, além de nome e idade, o pai, a mãe, irmãos e filhos. Tenha
+em mente que pai, mãe, irmãos e filhos também são do tipo Pessoa. Nesta classe, implemente
+métodos para determinar os avós maternos e paternos e a existência de tios e primos.
