@@ -116,7 +116,7 @@ public class Perfume {
     // Método para calcular a similaridade entre dois perfumes
     // A similaridade é calculada como a média ponderada das notas em comum por cada categoria
     // A média ponderada é calculada como a soma dos elementos comuns entre os dois perfumes
-    // dividido pelo maior n ́umero de ingredientes do n ́ıvel no perfume.
+    // dividido pelo maior número de ingredientes do nível no perfume.
 
     public static double similaridade (Perfume p1, Perfume p2){
         double valor_cabeca = (double) contarElementosComuns(p1.getCabeca(), p2.getCabeca());
