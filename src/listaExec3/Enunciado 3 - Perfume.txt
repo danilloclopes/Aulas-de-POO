@@ -4,4 +4,5 @@ sabendo que os métodos necessários incluem a verificação de um ingrediente n
 ingrediente aparece na cabeça, corpo ou coração da fragrância (assuma que nenhum ingrediente
 pode estar ao mesmo tempo em mais de um nível) e calcular o nível de similaridade com outro
 perfume. O nível de similaridade pode ser calculada fazendo uma média simples entre o número
-de ocorrências de ingredientes por nível. Para o número de ocorrências por nível, divida o total de ingredientes compartilhados pelo maior número de ingredientes do nível no perfume.
+de ocorrências de ingredientes por nível. Para o número de ocorrências por nível, divida o total
+de ingredientes compartilhados pelo maior número de ingredientes do nível no perfume.

@@ -1,0 +1,4 @@
+Crie uma classe em Java que represente polinômios. Para um polinômio qualquer, precisamos
+saber o grau máximo deste polinômio e os coeficientes de cada uma de suas potências. Defina
+nesta classe métodos que permitam calcular o valor do polinômio em um ponto x = x0, além de
+somar e subtrair polinômios.
