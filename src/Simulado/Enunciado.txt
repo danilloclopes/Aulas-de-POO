@@ -1,12 +1,17 @@
-Em um baralho tradicional, as 52 cartas são divididas em 4 naipes: Copas, Ouros, Paus e Espadas. Cada naipe contém 13 cartas numeradas. As cartas de números 1, 11, 12 e 13 são denominadas Ás, Valete, Dama e Rei do naipe, respectivamente. As demais são nomeadas considerando apenas o número e o naipe.
+Em um baralho tradicional, as 52 cartas são divididas em 4 naipes: Copas, Ouros, Paus e Espadas. Cada naipe contém 13 cartas numeradas.
+As cartas de números 1, 11, 12 e 13 são denominadas Ás, Valete, Dama e Rei do naipe, respectivamente.
+As demais são nomeadas considerando apenas o número e o naipe.
 
 (a) Implemente em Java uma classe `CartaBaralho` que represente as cartas de um baralho tradicional.
 
-(b) Implemente dois métodos construtores: um que receba o número da carta e o naipe, e outro que receba apenas o naipe. Quando o segundo construtor for utilizado, o número da carta deve ser gerado aleatoriamente.  
+(b) Implemente dois métodos construtores: um que receba o número da carta e o naipe, e outro que receba apenas o naipe.
+Quando o segundo construtor for utilizado, o número da carta deve ser gerado aleatoriamente.  
 Dica: Utilize o método `nextInt(x)` da classe `java.util.Random`. Este método retorna um inteiro `n` tal que `0 ≤ n < x`.
 
 (c) Implemente um método `toString()` cujo retorno seja uma string dizendo qual é a carta (nome e naipe) daquele objeto.
 
 (d) Implemente um método de classe `pickCard()`. Ao chamarmos este método, ele nos retorna uma carta do baralho.
 
-(e) Implemente uma classe `MaoJogador`, sabendo que o jogador possui um nome e uma coleção de 7 cartas. Nesta classe, implemente um método construtor que recebe apenas o nome do jogador como argumento. A montagem da coleção de cartas deve ser feita de maneira aleatória, lembrando que não há 2 cartas (número e naipe) iguais em um único baralho.
+(e) Implemente uma classe `MaoJogador`, sabendo que o jogador possui um nome e uma coleção de 7 cartas.
+Nesta classe, implemente um método construtor que recebe apenas o nome do jogador como argumento.
+A montagem da coleção de cartas deve ser feita de maneira aleatória, lembrando que não há 2 cartas (número e naipe) iguais em um único baralho.
