@@ -1,0 +1,13 @@
+Escreva em Java uma classe Ponto2D que represente um ponto no plano cartesiano. Além dos
+atributos por você identificados, a classe deve oferecer os seguintes membros:
+
+(a) Construtores sobrecarregados que permitam a inicialização do ponto:
+i. Por default (sem parâmetros) na origem do espaço 2D;
+ii. Num local indicado por dois parâmetros do tipo double (indicando o valor de abcissa e
+ordenada do ponto que está sendo criado).
+
+(b) Métodos de acesso (getter/setter) dos atributos do ponto;
+
+(c) Método de representação do objeto como String;
+
+(d) Distância do ponto atual a outro ponto.

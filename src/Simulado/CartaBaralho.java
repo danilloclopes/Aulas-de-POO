@@ -12,9 +12,7 @@ public class CartaBaralho {
     }
 
     public CartaBaralho(String naipe) {
-        this.naipe = naipe;
-        Random random = new Random();
-        valor = random.nextInt(14) + 1;
+        this(naipe, new Random().nextInt(13) + 1);
     }
 
     public String getNaipe() {
@@ -64,7 +62,7 @@ public class CartaBaralho {
                 break;
 
             default:
-                str = String.valueOf(valor) + " de ";
+                str = valor + " de ";
                 break;
         }
 

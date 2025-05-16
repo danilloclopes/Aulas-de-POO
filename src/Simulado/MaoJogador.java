@@ -16,8 +16,11 @@ public class MaoJogador {
             CartaBaralho carta = CartaBaralho.pickCard();
             boolean naoRepetida = true;
 
-            for (CartaBaralho cartaBaralho : cartas) {
-                if (cartaBaralho == carta) naoRepetida = false;
+           for (int i = 0; i < pos; i++) {  
+                if (cartas[i].equals(carta)) {  
+                    naoRepetida = false;
+                    break;
+                }
             }
 
             if(naoRepetida) {

@@ -1,0 +1,14 @@
+Crie em Java uma classe Matriz que representa uma matriz matemática de inteiros. Esta classe
+deve possuir como atributos as dimensões da matriz, bem como os valores existentes na matriz.
+Implemente métodos que suportem as seguintes operações:
+
+(a) Retornar a transposta (é aquela onde as linhas se transformam em colunas e as colunas em linhas) da matriz.
+(b) Retornar a oposta (é aquela onde todos os elementos possuem sinais trocados) da matriz.
+(c) Gerar uma matriz nula (é aquela onde todos os elementos são iguais a 0).
+(d) Informar se a matriz é identidade (matriz quadrada onde os elementos da diagonal principal são todos iguais a 1 e os demais 0).
+(e) Informar se a matriz é diagonal (matriz quadrada onde os elementos fora da diagonal principal são todos iguais a 0).
+(f) Informar se a matriz é singular (matriz diagonal onde os elementos da diagonal principal são todos iguais).
+(g) Adicionar duas matrizes (alterando o valor da que recebeu a mensagem).
+(h) Subtrair duas matrizes (alterando o valor da que recebeu a mensagem).
+(i) Gerar uma cópia da matriz.
+(j) Informar se a matriz é antissimétrica (uma matriz quadrada é dita antissimétrica se sua oposta é igual à sua transposta).
